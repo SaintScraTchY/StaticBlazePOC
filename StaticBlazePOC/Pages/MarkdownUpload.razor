@@ -15,13 +15,21 @@
 </EditForm>
 
 @code {
-    private TextGitUploadModel textGit = new TextGitUploadModel();
+
+    private TextGitUploadModel textGit = new TextGitUploadModel()
+    {
+        GitAccount = "your-github-account",
+        GitRepo = "your-github-repo",
+        GitFilePath = "posts/test.md",
+        GitHubPat = "your-github-pat",
+        MarkdownContent = "# Hello, Markdown!"
+    };
 
     private async Task UploadMarkdown()
     {
         try
         {
-            await GitHubService.PushMarkdownFile("SaintScraTchY", "StaticBlazePOC", textGit.GitFilePath, textGit.MarkdownContent, textGit.GitHubPat);
+            await GitHubService.PushMarkdownFile(textGit.GitAccount, textGit.GitRepo, textGit.GitFilePath, textGit.MarkdownContent, textGit.GitHubPat);
             Console.WriteLine("Markdown uploaded successfully!");
         }
         catch (Exception ex)

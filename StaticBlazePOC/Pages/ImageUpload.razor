@@ -15,7 +15,14 @@
 </EditForm>
 
 @code {
-    private FileGitUploadModel gitUpload = new FileGitUploadModel();
+
+    private FileGitUploadModel gitUpload = new FileGitUploadModel()
+    {
+        GitAccount = "your-github-account",
+        GitRepo = "your-github-repo",
+        GitFilePath = "images/photo.jpg",
+        GitHubPat = "your-github-pat"
+    };
 
     private void OnInputFileChange(InputFileChangeEventArgs e)
     {
@@ -29,7 +36,7 @@
     {
         try
         {
-            await GitHubService.PushImageFile("SaintScraTchY", "StaticBlazePOC", gitUpload.GitFilePath, gitUpload.ImageBytes, gitUpload.GitHubPat);
+            await GitHubService.PushImageFile(gitUpload.GitAccount, gitUpload.GitRepo, gitUpload.GitFilePath, gitUpload.ImageBytes, gitUpload.GitHubPat);
             Console.WriteLine("Image uploaded successfully!");
         }
         catch (Exception ex)
