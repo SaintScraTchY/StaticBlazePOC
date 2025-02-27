@@ -31,7 +31,7 @@ jobs:
             git commit --allow-empty -m "Initial gh-pages commit"
             git push origin gh-pages
             fi
-      - uses: peaceiris/actions-gh-pages@v3
+      - uses: JamesIves/github-pages-deploy-action@v4
         with:
           github_token: ${{ secrets.GH_PAT }}
           Folder: published/wwwroot
