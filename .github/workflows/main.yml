@@ -20,7 +20,6 @@ jobs:
           dotnet publish ./StaticBlazePOC/StaticBlazePOC.csproj -c Release  --no-restore
         env: 
           GH_PAT: ${{ secrets.GH_PAT }}
-      - uses: peaceiris/actions-gh-pages@v3        
       - name: Create gh-pages branch if not exists
         run: |
           git fetch origin
@@ -32,5 +31,5 @@ jobs:
             fi
       - uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GH_PAT }}
           publish_dir: published/wwwroot
