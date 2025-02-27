@@ -1,5 +1,7 @@
 ﻿@page "/image-upload"
+@using System.Net
 @using StaticBlazePOC.Models
+@using StaticBlazePOC.Services
 @inject GitHubService GitHubService
 
 <h3>Upload Image</h3>
@@ -8,8 +10,6 @@
     <InputFile OnChange="OnInputFileChange" />
     <br/>
     <InputText @bind-Value="@gitUpload.GitFilePath" placeholder="File Path (e.g., images/photo.jpg)" />
-    <br/>
-    <InputText @bind-Value="@gitUpload.GitHubPat" placeholder="GitHub PAT" />
     <br/>
     <InputText @bind-Value="@gitUpload.GitRepo" placeholder="GitHub Repo" />
     <br/>
@@ -24,7 +24,7 @@
         GitAccount = "your-github-account",
         GitRepo = "your-github-repo",
         GitFilePath = "images/photo.jpg",
-        GitHubPat = "your-github-pat"
+        GitHubPat = SecretHolder.PatToken
     };
 
     private void OnInputFileChange(InputFileChangeEventArgs e)
@@ -35,16 +35,24 @@
         gitUpload.ImageBytes = memoryStream.ToArray();
     }
 
-    private async Task UploadImage()
+    private async Task<HttpStatusCode> UploadImage()
     {
         try
         {
+            if (string.IsNullOrWhiteSpace( gitUpload.GitHubPat))
+            {
+                Console.WriteLine("Please provide a GitHub Personal Access Token (PAT)!");
+                return HttpStatusCode.BadRequest;
+            }
             await GitHubService.PushImageFile(gitUpload.GitAccount, gitUpload.GitRepo, gitUpload.GitFilePath, gitUpload.ImageBytes, gitUpload.GitHubPat);
             Console.WriteLine("Image uploaded successfully!");
+            return HttpStatusCode.OK;
         }
         catch (Exception ex)
         {
             Console.WriteLine($"Error: {ex.Message}");
         }
+
+        return HttpStatusCode.InternalServerError;
     }
 }

@@ -16,7 +16,7 @@ public class GitHubService
         _http = http;
     }
 
-    public async Task PushMarkdownFile(string repoOwner, string repoName, string path, string content, string pat)
+    public async Task PushMarkdownFile(string repoOwner, string repoName, string path, string content, string? pat)
     {
         var url = $"https://api.github.com/repos/{repoOwner}/{repoName}/contents/{path}";
         var base64Content = Convert.ToBase64String(Encoding.UTF8.GetBytes(content));
@@ -43,7 +43,7 @@ public class GitHubService
         }
     }
 
-    public async Task PushImageFile(string repoOwner, string repoName, string path, byte[] imageBytes, string pat)
+    public async Task PushImageFile(string repoOwner, string repoName, string path, byte[] imageBytes, string? pat)
     {
         var url = $"https://api.github.com/repos/{repoOwner}/{repoName}/contents/{path}";
         var base64Content = Convert.ToBase64String(imageBytes);

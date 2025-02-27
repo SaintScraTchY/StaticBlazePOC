@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "sGDpfzy6Vm7vWrO1rgY8z7TZxFy0AWKVpDAyEDkJVsk=",
+  "Hash": "U8tjlFKhZUUBnm7urb+97lsozn/4TVvOnSyuBc7SA/E=",
   "Source": "StaticBlazePOC",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "vodrcv37kr",
-      "Integrity": "D9ah/wqd2ewUPRGH/Z5QmTH3PhoD8w2XAjy/2BVHRXQ=",
+      "Fingerprint": "r5va5px1wk",
+      "Integrity": "wcqOPLKQ+uiRUMkHJfJ9jFUuW9lVMT15IkbA24fkFgs=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\blazor.boot.json"
@@ -871,8 +871,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "hh8m97n54x",
-      "Integrity": "i1ZlPxB+MPKrwQStMdhWXJgIjH5JJErkbNO54YqnA7s=",
+      "Fingerprint": "c7vqxvclu8",
+      "Integrity": "eL1oprut1a4J4Znd5dN192iLJ61rf4V5VoWSsOqzNyQ=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\StaticBlazePOC.pdb"
@@ -892,8 +892,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "9tu6mt6ke3",
-      "Integrity": "faueLbZPiNFWTI1iFwMy6gRdSmIVAhN20Q+unjEHYYc=",
+      "Fingerprint": "bd8a7sjdev",
+      "Integrity": "IfDpeE4PE9uqVbXF3Y8j6+ZsKmhHsP56cvwUr1+D2M8=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "M:\\Users\\SaintScraTchY\\RiderProjects\\StaticBlazePOC\\StaticBlazePOC\\obj\\Debug\\net9.0\\webcil\\StaticBlazePOC.wasm"
@@ -4784,12 +4784,12 @@
       "OriginalItemSpec": "M:\\Users\\SaintScraTchY\\RiderProjects\\StaticBlazePOC\\StaticBlazePOC\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Security.Principal.Windows.wasm"
     },
     {
-      "Identity": "M:\\Users\\SaintScraTchY\\RiderProjects\\StaticBlazePOC\\StaticBlazePOC\\obj\\Debug\\net9.0\\compressed\\4gj6h6kgga-hh8m97n54x.gz",
+      "Identity": "M:\\Users\\SaintScraTchY\\RiderProjects\\StaticBlazePOC\\StaticBlazePOC\\obj\\Debug\\net9.0\\compressed\\4gj6h6kgga-c7vqxvclu8.gz",
       "SourceId": "StaticBlazePOC",
       "SourceType": "Computed",
       "ContentRoot": "M:\\Users\\SaintScraTchY\\RiderProjects\\StaticBlazePOC\\StaticBlazePOC\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/StaticBlazePOC#[.{fingerprint=hh8m97n54x}]!.pdb.gz",
+      "RelativePath": "_framework/StaticBlazePOC#[.{fingerprint=c7vqxvclu8}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -4798,8 +4798,8 @@
       "RelatedAsset": "M:\\Users\\SaintScraTchY\\RiderProjects\\StaticBlazePOC\\StaticBlazePOC\\bin\\Debug\\net9.0\\wwwroot\\_framework\\StaticBlazePOC.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "di6i6ga9pr",
-      "Integrity": "ddccDJXPMQ9qH9w+dKG2/w/C+Pa3ZYa0EvBfKBgsA30=",
+      "Fingerprint": "8o43z0xx8a",
+      "Integrity": "aI1q/+U1rCFw2TYM3tjzbJVFap+mWXNGCD9370bzjbk=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "M:\\Users\\SaintScraTchY\\RiderProjects\\StaticBlazePOC\\StaticBlazePOC\\bin\\Debug\\net9.0\\wwwroot\\_framework\\StaticBlazePOC.pdb"
@@ -6947,7 +6947,7 @@
       "OriginalItemSpec": "M:\\Users\\SaintScraTchY\\RiderProjects\\StaticBlazePOC\\StaticBlazePOC\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Xml.XPath.XDocument.wasm"
     },
     {
-      "Identity": "M:\\Users\\SaintScraTchY\\RiderProjects\\StaticBlazePOC\\StaticBlazePOC\\obj\\Debug\\net9.0\\compressed\\jh4n4m0le0-vodrcv37kr.gz",
+      "Identity": "M:\\Users\\SaintScraTchY\\RiderProjects\\StaticBlazePOC\\StaticBlazePOC\\obj\\Debug\\net9.0\\compressed\\jh4n4m0le0-r5va5px1wk.gz",
       "SourceId": "StaticBlazePOC",
       "SourceType": "Computed",
       "ContentRoot": "M:\\Users\\SaintScraTchY\\RiderProjects\\StaticBlazePOC\\StaticBlazePOC\\obj\\Debug\\net9.0\\compressed\\",
@@ -6961,8 +6961,8 @@
       "RelatedAsset": "M:\\Users\\SaintScraTchY\\RiderProjects\\StaticBlazePOC\\StaticBlazePOC\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "zkpu65awss",
-      "Integrity": "A3cfiZt7eoM/lEv89oz9UWXq0eaJD0+GC4TxA04uWxw=",
+      "Fingerprint": "5dgx6m2gma",
+      "Integrity": "Gc9rVlC8rL0fopgQv1a9bvtCW5/7nGO0PPMEh72/FuM=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "M:\\Users\\SaintScraTchY\\RiderProjects\\StaticBlazePOC\\StaticBlazePOC\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -7493,12 +7493,12 @@
       "OriginalItemSpec": "M:\\Users\\SaintScraTchY\\RiderProjects\\StaticBlazePOC\\StaticBlazePOC\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Configuration.Json.wasm"
     },
     {
-      "Identity": "M:\\Users\\SaintScraTchY\\RiderProjects\\StaticBlazePOC\\StaticBlazePOC\\obj\\Debug\\net9.0\\compressed\\n3lf6z25fg-9tu6mt6ke3.gz",
+      "Identity": "M:\\Users\\SaintScraTchY\\RiderProjects\\StaticBlazePOC\\StaticBlazePOC\\obj\\Debug\\net9.0\\compressed\\n3lf6z25fg-bd8a7sjdev.gz",
       "SourceId": "StaticBlazePOC",
       "SourceType": "Computed",
       "ContentRoot": "M:\\Users\\SaintScraTchY\\RiderProjects\\StaticBlazePOC\\StaticBlazePOC\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/StaticBlazePOC#[.{fingerprint=9tu6mt6ke3}]!.wasm.gz",
+      "RelativePath": "_framework/StaticBlazePOC#[.{fingerprint=bd8a7sjdev}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -7507,8 +7507,8 @@
       "RelatedAsset": "M:\\Users\\SaintScraTchY\\RiderProjects\\StaticBlazePOC\\StaticBlazePOC\\bin\\Debug\\net9.0\\wwwroot\\_framework\\StaticBlazePOC.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "cshp6th09u",
-      "Integrity": "tG+eSG9ju6/M1LqHh39zTqw75R7jJlf23eQpbMS/lSI=",
+      "Fingerprint": "mir8hqesjp",
+      "Integrity": "sokIcD2m/MHkKYF3OFN9ey3qN+ga+zBphO17O/jOsyk=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "M:\\Users\\SaintScraTchY\\RiderProjects\\StaticBlazePOC\\StaticBlazePOC\\bin\\Debug\\net9.0\\wwwroot\\_framework\\StaticBlazePOC.wasm"
@@ -10705,7 +10705,46 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"D9ah/wqd2ewUPRGH/Z5QmTH3PhoD8w2XAjy/2BVHRXQ=\""
+          "Value": "\"wcqOPLKQ+uiRUMkHJfJ9jFUuW9lVMT15IkbA24fkFgs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 11:40:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wcqOPLKQ+uiRUMkHJfJ9jFUuW9lVMT15IkbA24fkFgs="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/blazor.boot.json",
+      "AssetFile": "M:\\Users\\SaintScraTchY\\RiderProjects\\StaticBlazePOC\\StaticBlazePOC\\obj\\Debug\\net9.0\\compressed\\jh4n4m0le0-r5va5px1wk.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000081261173"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12305"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Gc9rVlC8rL0fopgQv1a9bvtCW5/7nGO0PPMEh72/FuM=\""
         },
         {
           "Name": "Last-Modified",
@@ -10714,45 +10753,6 @@
         {
           "Name": "Cache-Control",
           "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-D9ah/wqd2ewUPRGH/Z5QmTH3PhoD8w2XAjy/2BVHRXQ="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/blazor.boot.json",
-      "AssetFile": "M:\\Users\\SaintScraTchY\\RiderProjects\\StaticBlazePOC\\StaticBlazePOC\\obj\\Debug\\net9.0\\compressed\\jh4n4m0le0-vodrcv37kr.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000081247969"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "12307"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"A3cfiZt7eoM/lEv89oz9UWXq0eaJD0+GC4TxA04uWxw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 25 Feb 2025 20:01:04 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -10768,19 +10768,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"D9ah/wqd2ewUPRGH/Z5QmTH3PhoD8w2XAjy/2BVHRXQ=\""
+          "Value": "W/\"wcqOPLKQ+uiRUMkHJfJ9jFUuW9lVMT15IkbA24fkFgs=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-D9ah/wqd2ewUPRGH/Z5QmTH3PhoD8w2XAjy/2BVHRXQ="
+          "Value": "sha256-wcqOPLKQ+uiRUMkHJfJ9jFUuW9lVMT15IkbA24fkFgs="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "M:\\Users\\SaintScraTchY\\RiderProjects\\StaticBlazePOC\\StaticBlazePOC\\obj\\Debug\\net9.0\\compressed\\jh4n4m0le0-vodrcv37kr.gz",
+      "AssetFile": "M:\\Users\\SaintScraTchY\\RiderProjects\\StaticBlazePOC\\StaticBlazePOC\\obj\\Debug\\net9.0\\compressed\\jh4n4m0le0-r5va5px1wk.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10789,7 +10789,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12307"
+          "Value": "12305"
         },
         {
           "Name": "Content-Type",
@@ -10797,11 +10797,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"A3cfiZt7eoM/lEv89oz9UWXq0eaJD0+GC4TxA04uWxw=\""
+          "Value": "\"Gc9rVlC8rL0fopgQv1a9bvtCW5/7nGO0PPMEh72/FuM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Feb 2025 20:01:04 GMT"
+          "Value": "Tue, 25 Feb 2025 20:03:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10819,7 +10819,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-A3cfiZt7eoM/lEv89oz9UWXq0eaJD0+GC4TxA04uWxw="
+          "Value": "sha256-Gc9rVlC8rL0fopgQv1a9bvtCW5/7nGO0PPMEh72/FuM="
         }
       ]
     },
@@ -22285,7 +22285,7 @@
       ]
     },
     {
-      "Route": "_framework/StaticBlazePOC.9tu6mt6ke3.wasm",
+      "Route": "_framework/StaticBlazePOC.bd8a7sjdev.wasm",
       "AssetFile": "M:\\Users\\SaintScraTchY\\RiderProjects\\StaticBlazePOC\\StaticBlazePOC\\bin\\Debug\\net9.0\\wwwroot\\_framework\\StaticBlazePOC.wasm",
       "Selectors": [],
       "ResponseHeaders": [
@@ -22295,7 +22295,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "31509"
+          "Value": "33557"
         },
         {
           "Name": "Content-Type",
@@ -22303,11 +22303,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"faueLbZPiNFWTI1iFwMy6gRdSmIVAhN20Q+unjEHYYc=\""
+          "Value": "\"IfDpeE4PE9uqVbXF3Y8j6+ZsKmhHsP56cvwUr1+D2M8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Feb 2025 20:03:55 GMT"
+          "Value": "Thu, 27 Feb 2025 11:40:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22317,7 +22317,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "9tu6mt6ke3"
+          "Value": "bd8a7sjdev"
         },
         {
           "Name": "label",
@@ -22325,18 +22325,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-faueLbZPiNFWTI1iFwMy6gRdSmIVAhN20Q+unjEHYYc="
+          "Value": "sha256-IfDpeE4PE9uqVbXF3Y8j6+ZsKmhHsP56cvwUr1+D2M8="
         }
       ]
     },
     {
-      "Route": "_framework/StaticBlazePOC.9tu6mt6ke3.wasm",
-      "AssetFile": "M:\\Users\\SaintScraTchY\\RiderProjects\\StaticBlazePOC\\StaticBlazePOC\\obj\\Debug\\net9.0\\compressed\\n3lf6z25fg-9tu6mt6ke3.gz",
+      "Route": "_framework/StaticBlazePOC.bd8a7sjdev.wasm",
+      "AssetFile": "M:\\Users\\SaintScraTchY\\RiderProjects\\StaticBlazePOC\\StaticBlazePOC\\obj\\Debug\\net9.0\\compressed\\n3lf6z25fg-bd8a7sjdev.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000074833495"
+          "Quality": "0.000071083310"
         }
       ],
       "ResponseHeaders": [
@@ -22346,15 +22346,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13362"
+          "Value": "14067"
         },
         {
           "Name": "ETag",
-          "Value": "\"tG+eSG9ju6/M1LqHh39zTqw75R7jJlf23eQpbMS/lSI=\""
+          "Value": "\"sokIcD2m/MHkKYF3OFN9ey3qN+ga+zBphO17O/jOsyk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Feb 2025 20:03:55 GMT"
+          "Value": "Thu, 27 Feb 2025 11:40:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22374,13 +22374,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"faueLbZPiNFWTI1iFwMy6gRdSmIVAhN20Q+unjEHYYc=\""
+          "Value": "W/\"IfDpeE4PE9uqVbXF3Y8j6+ZsKmhHsP56cvwUr1+D2M8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "9tu6mt6ke3"
+          "Value": "bd8a7sjdev"
         },
         {
           "Name": "label",
@@ -22388,13 +22388,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-faueLbZPiNFWTI1iFwMy6gRdSmIVAhN20Q+unjEHYYc="
+          "Value": "sha256-IfDpeE4PE9uqVbXF3Y8j6+ZsKmhHsP56cvwUr1+D2M8="
         }
       ]
     },
     {
-      "Route": "_framework/StaticBlazePOC.9tu6mt6ke3.wasm.gz",
-      "AssetFile": "M:\\Users\\SaintScraTchY\\RiderProjects\\StaticBlazePOC\\StaticBlazePOC\\obj\\Debug\\net9.0\\compressed\\n3lf6z25fg-9tu6mt6ke3.gz",
+      "Route": "_framework/StaticBlazePOC.bd8a7sjdev.wasm.gz",
+      "AssetFile": "M:\\Users\\SaintScraTchY\\RiderProjects\\StaticBlazePOC\\StaticBlazePOC\\obj\\Debug\\net9.0\\compressed\\n3lf6z25fg-bd8a7sjdev.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -22403,7 +22403,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13362"
+          "Value": "14067"
         },
         {
           "Name": "Content-Type",
@@ -22411,11 +22411,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"tG+eSG9ju6/M1LqHh39zTqw75R7jJlf23eQpbMS/lSI=\""
+          "Value": "\"sokIcD2m/MHkKYF3OFN9ey3qN+ga+zBphO17O/jOsyk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Feb 2025 20:03:55 GMT"
+          "Value": "Thu, 27 Feb 2025 11:40:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22433,7 +22433,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "9tu6mt6ke3"
+          "Value": "bd8a7sjdev"
         },
         {
           "Name": "label",
@@ -22441,12 +22441,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-tG+eSG9ju6/M1LqHh39zTqw75R7jJlf23eQpbMS/lSI="
+          "Value": "sha256-sokIcD2m/MHkKYF3OFN9ey3qN+ga+zBphO17O/jOsyk="
         }
       ]
     },
     {
-      "Route": "_framework/StaticBlazePOC.hh8m97n54x.pdb",
+      "Route": "_framework/StaticBlazePOC.c7vqxvclu8.pdb",
       "AssetFile": "M:\\Users\\SaintScraTchY\\RiderProjects\\StaticBlazePOC\\StaticBlazePOC\\bin\\Debug\\net9.0\\wwwroot\\_framework\\StaticBlazePOC.pdb",
       "Selectors": [],
       "ResponseHeaders": [
@@ -22456,7 +22456,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "30716"
+          "Value": "31664"
         },
         {
           "Name": "Content-Type",
@@ -22464,11 +22464,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"i1ZlPxB+MPKrwQStMdhWXJgIjH5JJErkbNO54YqnA7s=\""
+          "Value": "\"eL1oprut1a4J4Znd5dN192iLJ61rf4V5VoWSsOqzNyQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Feb 2025 20:03:55 GMT"
+          "Value": "Thu, 27 Feb 2025 11:40:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22478,7 +22478,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "hh8m97n54x"
+          "Value": "c7vqxvclu8"
         },
         {
           "Name": "label",
@@ -22486,18 +22486,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-i1ZlPxB+MPKrwQStMdhWXJgIjH5JJErkbNO54YqnA7s="
+          "Value": "sha256-eL1oprut1a4J4Znd5dN192iLJ61rf4V5VoWSsOqzNyQ="
         }
       ]
     },
     {
-      "Route": "_framework/StaticBlazePOC.hh8m97n54x.pdb",
-      "AssetFile": "M:\\Users\\SaintScraTchY\\RiderProjects\\StaticBlazePOC\\StaticBlazePOC\\obj\\Debug\\net9.0\\compressed\\4gj6h6kgga-hh8m97n54x.gz",
+      "Route": "_framework/StaticBlazePOC.c7vqxvclu8.pdb",
+      "AssetFile": "M:\\Users\\SaintScraTchY\\RiderProjects\\StaticBlazePOC\\StaticBlazePOC\\obj\\Debug\\net9.0\\compressed\\4gj6h6kgga-c7vqxvclu8.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000043582480"
+          "Quality": "0.000042160293"
         }
       ],
       "ResponseHeaders": [
@@ -22507,15 +22507,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "22944"
+          "Value": "23718"
         },
         {
           "Name": "ETag",
-          "Value": "\"ddccDJXPMQ9qH9w+dKG2/w/C+Pa3ZYa0EvBfKBgsA30=\""
+          "Value": "\"aI1q/+U1rCFw2TYM3tjzbJVFap+mWXNGCD9370bzjbk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Feb 2025 20:03:55 GMT"
+          "Value": "Thu, 27 Feb 2025 11:40:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22535,13 +22535,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"i1ZlPxB+MPKrwQStMdhWXJgIjH5JJErkbNO54YqnA7s=\""
+          "Value": "W/\"eL1oprut1a4J4Znd5dN192iLJ61rf4V5VoWSsOqzNyQ=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "hh8m97n54x"
+          "Value": "c7vqxvclu8"
         },
         {
           "Name": "label",
@@ -22549,13 +22549,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-i1ZlPxB+MPKrwQStMdhWXJgIjH5JJErkbNO54YqnA7s="
+          "Value": "sha256-eL1oprut1a4J4Znd5dN192iLJ61rf4V5VoWSsOqzNyQ="
         }
       ]
     },
     {
-      "Route": "_framework/StaticBlazePOC.hh8m97n54x.pdb.gz",
-      "AssetFile": "M:\\Users\\SaintScraTchY\\RiderProjects\\StaticBlazePOC\\StaticBlazePOC\\obj\\Debug\\net9.0\\compressed\\4gj6h6kgga-hh8m97n54x.gz",
+      "Route": "_framework/StaticBlazePOC.c7vqxvclu8.pdb.gz",
+      "AssetFile": "M:\\Users\\SaintScraTchY\\RiderProjects\\StaticBlazePOC\\StaticBlazePOC\\obj\\Debug\\net9.0\\compressed\\4gj6h6kgga-c7vqxvclu8.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -22564,7 +22564,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "22944"
+          "Value": "23718"
         },
         {
           "Name": "Content-Type",
@@ -22572,11 +22572,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ddccDJXPMQ9qH9w+dKG2/w/C+Pa3ZYa0EvBfKBgsA30=\""
+          "Value": "\"aI1q/+U1rCFw2TYM3tjzbJVFap+mWXNGCD9370bzjbk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Feb 2025 20:03:55 GMT"
+          "Value": "Thu, 27 Feb 2025 11:40:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22594,7 +22594,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "hh8m97n54x"
+          "Value": "c7vqxvclu8"
         },
         {
           "Name": "label",
@@ -22602,7 +22602,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ddccDJXPMQ9qH9w+dKG2/w/C+Pa3ZYa0EvBfKBgsA30="
+          "Value": "sha256-aI1q/+U1rCFw2TYM3tjzbJVFap+mWXNGCD9370bzjbk="
         }
       ]
     },
@@ -22617,7 +22617,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "30716"
+          "Value": "31664"
         },
         {
           "Name": "Content-Type",
@@ -22625,11 +22625,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"i1ZlPxB+MPKrwQStMdhWXJgIjH5JJErkbNO54YqnA7s=\""
+          "Value": "\"eL1oprut1a4J4Znd5dN192iLJ61rf4V5VoWSsOqzNyQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Feb 2025 20:03:55 GMT"
+          "Value": "Thu, 27 Feb 2025 11:40:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22639,18 +22639,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-i1ZlPxB+MPKrwQStMdhWXJgIjH5JJErkbNO54YqnA7s="
+          "Value": "sha256-eL1oprut1a4J4Znd5dN192iLJ61rf4V5VoWSsOqzNyQ="
         }
       ]
     },
     {
       "Route": "_framework/StaticBlazePOC.pdb",
-      "AssetFile": "M:\\Users\\SaintScraTchY\\RiderProjects\\StaticBlazePOC\\StaticBlazePOC\\obj\\Debug\\net9.0\\compressed\\4gj6h6kgga-hh8m97n54x.gz",
+      "AssetFile": "M:\\Users\\SaintScraTchY\\RiderProjects\\StaticBlazePOC\\StaticBlazePOC\\obj\\Debug\\net9.0\\compressed\\4gj6h6kgga-c7vqxvclu8.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000043582480"
+          "Quality": "0.000042160293"
         }
       ],
       "ResponseHeaders": [
@@ -22660,15 +22660,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "22944"
+          "Value": "23718"
         },
         {
           "Name": "ETag",
-          "Value": "\"ddccDJXPMQ9qH9w+dKG2/w/C+Pa3ZYa0EvBfKBgsA30=\""
+          "Value": "\"aI1q/+U1rCFw2TYM3tjzbJVFap+mWXNGCD9370bzjbk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Feb 2025 20:03:55 GMT"
+          "Value": "Thu, 27 Feb 2025 11:40:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22688,19 +22688,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"i1ZlPxB+MPKrwQStMdhWXJgIjH5JJErkbNO54YqnA7s=\""
+          "Value": "W/\"eL1oprut1a4J4Znd5dN192iLJ61rf4V5VoWSsOqzNyQ=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-i1ZlPxB+MPKrwQStMdhWXJgIjH5JJErkbNO54YqnA7s="
+          "Value": "sha256-eL1oprut1a4J4Znd5dN192iLJ61rf4V5VoWSsOqzNyQ="
         }
       ]
     },
     {
       "Route": "_framework/StaticBlazePOC.pdb.gz",
-      "AssetFile": "M:\\Users\\SaintScraTchY\\RiderProjects\\StaticBlazePOC\\StaticBlazePOC\\obj\\Debug\\net9.0\\compressed\\4gj6h6kgga-hh8m97n54x.gz",
+      "AssetFile": "M:\\Users\\SaintScraTchY\\RiderProjects\\StaticBlazePOC\\StaticBlazePOC\\obj\\Debug\\net9.0\\compressed\\4gj6h6kgga-c7vqxvclu8.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -22709,7 +22709,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "22944"
+          "Value": "23718"
         },
         {
           "Name": "Content-Type",
@@ -22717,11 +22717,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ddccDJXPMQ9qH9w+dKG2/w/C+Pa3ZYa0EvBfKBgsA30=\""
+          "Value": "\"aI1q/+U1rCFw2TYM3tjzbJVFap+mWXNGCD9370bzjbk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Feb 2025 20:03:55 GMT"
+          "Value": "Thu, 27 Feb 2025 11:40:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22739,7 +22739,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ddccDJXPMQ9qH9w+dKG2/w/C+Pa3ZYa0EvBfKBgsA30="
+          "Value": "sha256-aI1q/+U1rCFw2TYM3tjzbJVFap+mWXNGCD9370bzjbk="
         }
       ]
     },
@@ -22754,7 +22754,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "31509"
+          "Value": "33557"
         },
         {
           "Name": "Content-Type",
@@ -22762,11 +22762,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"faueLbZPiNFWTI1iFwMy6gRdSmIVAhN20Q+unjEHYYc=\""
+          "Value": "\"IfDpeE4PE9uqVbXF3Y8j6+ZsKmhHsP56cvwUr1+D2M8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Feb 2025 20:03:55 GMT"
+          "Value": "Thu, 27 Feb 2025 11:40:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22776,18 +22776,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-faueLbZPiNFWTI1iFwMy6gRdSmIVAhN20Q+unjEHYYc="
+          "Value": "sha256-IfDpeE4PE9uqVbXF3Y8j6+ZsKmhHsP56cvwUr1+D2M8="
         }
       ]
     },
     {
       "Route": "_framework/StaticBlazePOC.wasm",
-      "AssetFile": "M:\\Users\\SaintScraTchY\\RiderProjects\\StaticBlazePOC\\StaticBlazePOC\\obj\\Debug\\net9.0\\compressed\\n3lf6z25fg-9tu6mt6ke3.gz",
+      "AssetFile": "M:\\Users\\SaintScraTchY\\RiderProjects\\StaticBlazePOC\\StaticBlazePOC\\obj\\Debug\\net9.0\\compressed\\n3lf6z25fg-bd8a7sjdev.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000074833495"
+          "Quality": "0.000071083310"
         }
       ],
       "ResponseHeaders": [
@@ -22797,15 +22797,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13362"
+          "Value": "14067"
         },
         {
           "Name": "ETag",
-          "Value": "\"tG+eSG9ju6/M1LqHh39zTqw75R7jJlf23eQpbMS/lSI=\""
+          "Value": "\"sokIcD2m/MHkKYF3OFN9ey3qN+ga+zBphO17O/jOsyk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Feb 2025 20:03:55 GMT"
+          "Value": "Thu, 27 Feb 2025 11:40:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22825,19 +22825,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"faueLbZPiNFWTI1iFwMy6gRdSmIVAhN20Q+unjEHYYc=\""
+          "Value": "W/\"IfDpeE4PE9uqVbXF3Y8j6+ZsKmhHsP56cvwUr1+D2M8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-faueLbZPiNFWTI1iFwMy6gRdSmIVAhN20Q+unjEHYYc="
+          "Value": "sha256-IfDpeE4PE9uqVbXF3Y8j6+ZsKmhHsP56cvwUr1+D2M8="
         }
       ]
     },
     {
       "Route": "_framework/StaticBlazePOC.wasm.gz",
-      "AssetFile": "M:\\Users\\SaintScraTchY\\RiderProjects\\StaticBlazePOC\\StaticBlazePOC\\obj\\Debug\\net9.0\\compressed\\n3lf6z25fg-9tu6mt6ke3.gz",
+      "AssetFile": "M:\\Users\\SaintScraTchY\\RiderProjects\\StaticBlazePOC\\StaticBlazePOC\\obj\\Debug\\net9.0\\compressed\\n3lf6z25fg-bd8a7sjdev.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -22846,7 +22846,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13362"
+          "Value": "14067"
         },
         {
           "Name": "Content-Type",
@@ -22854,11 +22854,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"tG+eSG9ju6/M1LqHh39zTqw75R7jJlf23eQpbMS/lSI=\""
+          "Value": "\"sokIcD2m/MHkKYF3OFN9ey3qN+ga+zBphO17O/jOsyk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Feb 2025 20:03:55 GMT"
+          "Value": "Thu, 27 Feb 2025 11:40:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22876,7 +22876,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-tG+eSG9ju6/M1LqHh39zTqw75R7jJlf23eQpbMS/lSI="
+          "Value": "sha256-sokIcD2m/MHkKYF3OFN9ey3qN+ga+zBphO17O/jOsyk="
         }
       ]
     },
