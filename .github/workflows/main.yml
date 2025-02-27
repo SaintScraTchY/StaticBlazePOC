@@ -28,14 +28,6 @@ jobs:
           touch published/wwwroot/.nojekyll
           
       - name: Create gh-pages branch if not exists
-        run: |
-          git fetch origin
-          if ! git show-ref --verify --quiet refs/remotes/origin/gh-pages; then
-            git checkout --orphan gh-pages
-            git reset --hard
-            git commit --allow-empty -m "Initial gh-pages commit"
-            git push origin gh-pages
-            fi
       - uses: JamesIves/github-pages-deploy-action@v4
         with:
           token: ${{ secrets.GH_PAT }}
