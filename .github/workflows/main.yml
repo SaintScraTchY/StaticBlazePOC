@@ -17,7 +17,20 @@ jobs:
         run: dotnet restore ./BookManager/BookManager.csproj
       - name: 🏗️ Build Project
         run: |
-          dotnet publish -c Release -o published
+          dotnet publish -c Release  --no-restore
         env: 
           GH_PAT: ${{ secrets.GH_PAT }}
       - uses: peaceiris/actions-gh-pages@v3        
+      - name: Create gh-pages branch if not exists
+        run: |
+          git fetch origin
+          if ! git show-ref --verify --quiet refs/remotes/origin/gh-pages; then
+            git checkout --orphan gh-pages
+            git reset --hard
+            git commit --allow-empty -m "Initial gh-pages commit"
+            git push origin gh-pages
+            fi
+      - uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: published/wwwroot
