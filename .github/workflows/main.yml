@@ -13,11 +13,13 @@ jobs:
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: 9.x
+      - name: Install .NET WASM Build Tools
+        run: dotnet workload install wasm-tools
       - name: 📦 Restore Dependencies
         run: dotnet restore ./StaticBlazePOC/StaticBlazePOC.csproj
       - name: 🏗️ Build Project
         run: |
-          dotnet publish ./StaticBlazePOC/StaticBlazePOC.csproj -c Release  --no-restore
+          dotnet publish ./StaticBlazePOC/StaticBlazePOC.csproj -c Release -o published/wwwroot --no-restore
         env: 
           GH_PAT: ${{ secrets.GH_PAT }}
       - name: Create gh-pages branch if not exists
@@ -32,4 +34,5 @@ jobs:
       - uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GH_PAT }}
+          Folder: published/wwwroot
           publish_dir: published/wwwroot
