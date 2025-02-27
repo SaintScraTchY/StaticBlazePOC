@@ -66,6 +66,10 @@
               "version": "[9.0.2, )",
               "autoReferenced": true
             },
+            "PublishSPAforGitHubPages.Build": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
             "System.Net.Http": {
               "target": "Package",
               "version": "[4.3.4, )"

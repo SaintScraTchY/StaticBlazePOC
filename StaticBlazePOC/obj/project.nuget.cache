@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "wdk53++AyNc=",
+  "dgSpecHash": "LL3LxT0YQ28=",
   "success": true,
   "projectFilePath": "M:\\Users\\SaintScraTchY\\RiderProjects\\StaticBlazePOC\\StaticBlazePOC\\StaticBlazePOC.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\SaintScraTchY\\.nuget\\packages\\blazorwasmbrotliloader.build\\1.0.0\\blazorwasmbrotliloader.build.1.0.0.nupkg.sha512",
     "C:\\Users\\SaintScraTchY\\.nuget\\packages\\microsoft.aspnetcore.authorization\\9.0.2\\microsoft.aspnetcore.authorization.9.0.2.nupkg.sha512",
     "C:\\Users\\SaintScraTchY\\.nuget\\packages\\microsoft.aspnetcore.components\\9.0.2\\microsoft.aspnetcore.components.9.0.2.nupkg.sha512",
     "C:\\Users\\SaintScraTchY\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\9.0.2\\microsoft.aspnetcore.components.analyzers.9.0.2.nupkg.sha512",
@@ -32,6 +33,7 @@
     "C:\\Users\\SaintScraTchY\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\9.0.2\\microsoft.net.sdk.webassembly.pack.9.0.2.nupkg.sha512",
     "C:\\Users\\SaintScraTchY\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.1\\microsoft.netcore.platforms.1.1.1.nupkg.sha512",
     "C:\\Users\\SaintScraTchY\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\SaintScraTchY\\.nuget\\packages\\publishspaforgithubpages.build\\3.0.0\\publishspaforgithubpages.build.3.0.0.nupkg.sha512",
     "C:\\Users\\SaintScraTchY\\.nuget\\packages\\runtime.any.system.collections\\4.3.0\\runtime.any.system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\SaintScraTchY\\.nuget\\packages\\runtime.any.system.diagnostics.tracing\\4.3.0\\runtime.any.system.diagnostics.tracing.4.3.0.nupkg.sha512",
     "C:\\Users\\SaintScraTchY\\.nuget\\packages\\runtime.any.system.globalization\\4.3.0\\runtime.any.system.globalization.4.3.0.nupkg.sha512",

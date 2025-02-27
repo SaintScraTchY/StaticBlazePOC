@@ -13,11 +13,14 @@
     <SourceRoot Include="C:\Users\SaintScraTchY\.nuget\packages\" />
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)publishspaforgithubpages.build\3.0.0\build\PublishSPAforGitHubPages.Build.props" Condition="Exists('$(NuGetPackageRoot)publishspaforgithubpages.build\3.0.0\build\PublishSPAforGitHubPages.Build.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.net.sdk.webassembly.pack\9.0.2\build\Microsoft.NET.Sdk.WebAssembly.Pack.props" Condition="Exists('$(NuGetPackageRoot)microsoft.net.sdk.webassembly.pack\9.0.2\build\Microsoft.NET.Sdk.WebAssembly.Pack.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.net.illink.tasks\9.0.2\build\Microsoft.NET.ILLink.Tasks.props" Condition="Exists('$(NuGetPackageRoot)microsoft.net.illink.tasks\9.0.2\build\Microsoft.NET.ILLink.Tasks.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.components.webassembly\9.0.2\build\net9.0\Microsoft.AspNetCore.Components.WebAssembly.props" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.components.webassembly\9.0.2\build\net9.0\Microsoft.AspNetCore.Components.WebAssembly.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgBlazorWasmBrotliLoader_Build Condition=" '$(PkgBlazorWasmBrotliLoader_Build)' == '' ">C:\Users\SaintScraTchY\.nuget\packages\blazorwasmbrotliloader.build\1.0.0</PkgBlazorWasmBrotliLoader_Build>
+    <PkgPublishSPAforGitHubPages_Build Condition=" '$(PkgPublishSPAforGitHubPages_Build)' == '' ">C:\Users\SaintScraTchY\.nuget\packages\publishspaforgithubpages.build\3.0.0</PkgPublishSPAforGitHubPages_Build>
     <PkgMicrosoft_NET_Sdk_WebAssembly_Pack Condition=" '$(PkgMicrosoft_NET_Sdk_WebAssembly_Pack)' == '' ">C:\Users\SaintScraTchY\.nuget\packages\microsoft.net.sdk.webassembly.pack\9.0.2</PkgMicrosoft_NET_Sdk_WebAssembly_Pack>
     <PkgMicrosoft_NET_ILLink_Tasks Condition=" '$(PkgMicrosoft_NET_ILLink_Tasks)' == '' ">C:\Users\SaintScraTchY\.nuget\packages\microsoft.net.illink.tasks\9.0.2</PkgMicrosoft_NET_ILLink_Tasks>
     <PkgMicrosoft_AspNetCore_Components_WebAssembly_DevServer Condition=" '$(PkgMicrosoft_AspNetCore_Components_WebAssembly_DevServer)' == '' ">C:\Users\SaintScraTchY\.nuget\packages\microsoft.aspnetcore.components.webassembly.devserver\9.0.2</PkgMicrosoft_AspNetCore_Components_WebAssembly_DevServer>

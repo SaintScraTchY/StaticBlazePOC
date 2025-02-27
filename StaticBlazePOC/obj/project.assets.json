@@ -2,6 +2,12 @@
   "version": 3,
   "targets": {
     "net9.0": {
+      "BlazorWasmBrotliLoader.Build/1.0.0": {
+        "type": "package",
+        "build": {
+          "build/BlazorWasmBrotliLoader.Build.targets": {}
+        }
+      },
       "Microsoft.AspNetCore.Authorization/9.0.2": {
         "type": "package",
         "dependencies": {
@@ -449,6 +455,16 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "PublishSPAforGitHubPages.Build/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "BlazorWasmBrotliLoader.Build": "1.0.0"
+        },
+        "build": {
+          "build/PublishSPAforGitHubPages.Build.props": {},
+          "build/PublishSPAforGitHubPages.Build.targets": {}
         }
       },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
@@ -1243,6 +1259,12 @@
       }
     },
     "net9.0/browser-wasm": {
+      "BlazorWasmBrotliLoader.Build/1.0.0": {
+        "type": "package",
+        "build": {
+          "build/BlazorWasmBrotliLoader.Build.targets": {}
+        }
+      },
       "Microsoft.AspNetCore.Authorization/9.0.2": {
         "type": "package",
         "dependencies": {
@@ -1690,6 +1712,16 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "PublishSPAforGitHubPages.Build/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "BlazorWasmBrotliLoader.Build": "1.0.0"
+        },
+        "build": {
+          "build/PublishSPAforGitHubPages.Build.props": {},
+          "build/PublishSPAforGitHubPages.Build.targets": {}
         }
       },
       "runtime.any.System.Collections/4.3.0": {
@@ -2485,6 +2517,27 @@
     }
   },
   "libraries": {
+    "BlazorWasmBrotliLoader.Build/1.0.0": {
+      "sha512": "7mLo7kyUGuheP+b5UqUIHSmjf1ylVjzBY8McwkLBL7LW0hXGNUvnyMHTuRjLVw23I4Ad+dMbG5NLQOUKFrg0VQ==",
+      "type": "package",
+      "path": "blazorwasmbrotliloader.build/1.0.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "blazorwasmbrotliloader.build.1.0.0.nupkg.sha512",
+        "blazorwasmbrotliloader.build.nuspec",
+        "build/BlazorWasmBrotliLoader.Build.targets",
+        "bundle/scripts/brotliloader.js",
+        "bundle/scripts/brotliloader.min.js",
+        "bundle/scripts/decode.js",
+        "bundle/scripts/decode.min.js",
+        "nupkg-icon.png",
+        "tools/BlazorWasmBrotliLoader.Build.dll",
+        "tools/BrotliSharpLib.dll"
+      ]
+    },
     "Microsoft.AspNetCore.Authorization/9.0.2": {
       "sha512": "XpB+xelGR4xxV8UX0Sa2OXr1ZsZgNyF5Xv1Yn3K5GCnzl7wkwczmnER5/E2A+7tBRf424OSPrBdN3gzz5wa14Q==",
       "type": "package",
@@ -3391,6 +3444,23 @@
         "microsoft.netcore.targets.1.1.0.nupkg.sha512",
         "microsoft.netcore.targets.nuspec",
         "runtime.json"
+      ]
+    },
+    "PublishSPAforGitHubPages.Build/3.0.0": {
+      "sha512": "niaAihtaDgznhvCturFsd26a8YR0ghakeEC0bjp3b1wg5Cs0b2Of5eoe8JtWKpLmyfrSssU5AfhvvctzAKxuYg==",
+      "type": "package",
+      "path": "publishspaforgithubpages.build/3.0.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "build/PublishSPAforGitHubPages.Build.props",
+        "build/PublishSPAforGitHubPages.Build.targets",
+        "nupkg-icon.png",
+        "publishspaforgithubpages.build.3.0.0.nupkg.sha512",
+        "publishspaforgithubpages.build.nuspec",
+        "tools/PublishSPAforGitHubPages.Build.dll"
       ]
     },
     "runtime.any.System.Collections/4.3.0": {
@@ -5786,6 +5856,7 @@
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 9.0.2",
       "Microsoft.NET.ILLink.Tasks >= 9.0.2",
       "Microsoft.NET.Sdk.WebAssembly.Pack >= 9.0.2",
+      "PublishSPAforGitHubPages.Build >= 3.0.0",
       "System.Net.Http >= 4.3.4"
     ]
   },
@@ -5853,6 +5924,10 @@
             "target": "Package",
             "version": "[9.0.2, )",
             "autoReferenced": true
+          },
+          "PublishSPAforGitHubPages.Build": {
+            "target": "Package",
+            "version": "[3.0.0, )"
           },
           "System.Net.Http": {
             "target": "Package",
