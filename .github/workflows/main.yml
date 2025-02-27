@@ -19,7 +19,7 @@ jobs:
         run: dotnet restore ./StaticBlazePOC/StaticBlazePOC.csproj
       - name: 🏗️ Build Project
         run: |
-          dotnet publish ./StaticBlazePOC/StaticBlazePOC.csproj -c Release -o published/wwwroot --no-restore
+          dotnet publish ./StaticBlazePOC/StaticBlazePOC.csproj -c Release -o published --no-restore
         env: 
           GH_PAT: ${{ secrets.GH_PAT }}
       - name: Create gh-pages branch if not exists
@@ -35,4 +35,4 @@ jobs:
         with:
           token: ${{ secrets.GH_PAT }}
           github_token: ${{ secrets.GH_PAT }}
-          folder: published/wwwroot
+          folder: published
