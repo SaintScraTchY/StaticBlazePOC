@@ -7,16 +7,17 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-dotnet@v3
+      - name: 🛠️ Checkout Repository
+        uses: actions/checkout@v4
+      - name: ⚙️ Setup .NET 9 SDK
+        uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: 9.0.x
-      - name: Build and Publish Blazor WASM
+          dotnet-version: 9.x
+      - name: 📦 Restore Dependencies
+        run: dotnet restore ./BookManager/BookManager.csproj
+      - name: 🏗️ Build Project
         run: |
           dotnet publish -c Release -o published
         env: 
           GH_PAT: ${{ secrets.GH_PAT }}
-      - uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: published/wwwroot
+      - uses: peaceiris/actions-gh-pages@v3        
