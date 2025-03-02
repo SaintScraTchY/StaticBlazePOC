@@ -20,7 +20,7 @@ jobs:
       - name: 🏗️ Build Project
         run: dotnet publish ./StaticBlazePOC/StaticBlazePOC.csproj -c:Release -p:GHPages=true -o published --no-restore
         env: 
-          GH_PAT: ${{ secrets.GH_PAT }}
+          GHPAT: ${{ secrets.GH_PAT }}
 
       - name: Replace placeholder token
         run: |
