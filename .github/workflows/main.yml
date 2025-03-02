@@ -24,18 +24,6 @@ jobs:
       - name: Add .nojekyll file
         run: |
           touch published/wwwroot/.nojekyll
-          
-      - name: Create gh-pages branch if not exists
-        run: |
-          git fetch
-          if [ `git branch -r | grep 'origin/gh-pages' | wc -l` = 0 ]; then
-            git checkout --orphan gh-pages
-            git reset --hard
-            git commit --allow-empty -m "Initializing gh-pages branch"
-            git push origin gh-pages
-          else
-            git checkout gh-pages
-          fi
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
