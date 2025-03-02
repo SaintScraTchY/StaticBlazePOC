@@ -1,4 +1,3 @@
-# .github/workflows/deploy.yml
 name: 🚀 Deploy to GitHub Pages
 on:
   push:
@@ -18,21 +17,17 @@ jobs:
       - name: 📦 Restore Dependencies
         run: dotnet restore ./StaticBlazePOC/StaticBlazePOC.csproj
       - name: 🏗️ Build Project
-        run: |
-          dotnet publish ./StaticBlazePOC/StaticBlazePOC.csproj -c:Release -p:GHPages=true -o published --no-restore
+        run: dotnet publish ./StaticBlazePOC/StaticBlazePOC.csproj -c:Release -p:GHPages=true -o published --no-restore
         env: 
           GH_PAT: ${{ secrets.GH_PAT }}
-      - name: Create gh-pages branch if not exists
+
+      - name: Add .nojekyll file
         run: |
-          git fetch origin
-          if ! git show-ref --verify --quiet refs/remotes/origin/gh-pages; then
-            git checkout --orphan gh-pages
-            git reset --hard
-            git commit --allow-empty -m "Initial gh-pages commit"
-            git push origin gh-pages
-            fi
-      - uses: JamesIves/github-pages-deploy-action@v4
+          touch published/wwwroot/.nojekyll
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
           token: ${{ secrets.GH_PAT }}
           github_token: ${{ secrets.GH_PAT }}
-          folder: published
+          folder: published/wwwroot
