@@ -34,7 +34,7 @@
         try
         {
             
-            Console.WriteLine($"Env Pat { Environment.GetEnvironmentVariable("GHPAT") }");
+            Console.WriteLine($"Env Pat { Environment.GetEnvironmentVariable("PAT") }");
             Console.WriteLine($"Env Pat { Environment.GetEnvironmentVariable("GitHubPat") }");
             Console.WriteLine($"Appsetting Pat { Config["GitHubPat"] }");
             Console.WriteLine($"Appsetting Pat { Config.GetSection("GitHubPat") }");
