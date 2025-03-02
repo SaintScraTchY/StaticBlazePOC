@@ -9,7 +9,7 @@ builder.RootComponents.Add<App>("#app");
 builder.RootComponents.Add<HeadOutlet>("head::after");
 
 var patToken = builder.Configuration["GitHubPat"];
-SecretHolder.PatToken = patToken;
+
 
 builder.Services.AddScoped(sp => new HttpClient
 {

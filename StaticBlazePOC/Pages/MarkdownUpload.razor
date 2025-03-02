@@ -3,6 +3,7 @@
 @using StaticBlazePOC.Models
 @using StaticBlazePOC.Services
 @inject GitHubService GitHubService
+@inject IConfiguration Config;
 
 <h3>Upload Markdown</h3>
 
@@ -32,6 +33,11 @@
     {
         try
         {
+            
+            Console.WriteLine($"Env Pat { Environment.GetEnvironmentVariable("GHPAT") }");
+            Console.WriteLine($"Env Pat { Environment.GetEnvironmentVariable("GitHubPat") }");
+            Console.WriteLine($"Appsetting Pat { Config["GitHubPat"] }");
+            Console.WriteLine($"Appsetting Pat { Config.GetSection("GitHubPat") }");
             if (string.IsNullOrWhiteSpace(textGit.GitHubPat))
             {
                 Console.WriteLine("Please provide a GitHub Personal Access Token (PAT)!");
