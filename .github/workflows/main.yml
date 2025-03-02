@@ -24,7 +24,7 @@ jobs:
 
       - name: Replace placeholder token
         run: |
-          sed -i 's/YOUR_PLACEHOLDER_PAT/${{ secrets.GH_PAT }}/g' published/wwwroot/appsettings.json
+          sed -i 's/YOUR_PLACEHOLDER_PAT/${{ secrets.GH_PAT }}/g' published/appsettings.json
 
       - name: Add .nojekyll file
         run: |
