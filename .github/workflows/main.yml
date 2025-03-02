@@ -20,11 +20,11 @@ jobs:
       - name: 🏗️ Build Project
         run: dotnet publish ./StaticBlazePOC/StaticBlazePOC.csproj -c:Release -p:GHPages=true -o published --no-restore
         env: 
-          GHPAT: ${{ secrets.GH_PAT }}
+          GHPAT: ${{ secrets.PAT }}
 
       - name: Replace placeholder token
         run: |
-          sed -i 's/YOUR_PLACEHOLDER_PAT/${{ secrets.GH_PAT }}/g' published/appsettings.json
+          sed -i 's/YOUR_PLACEHOLDER_PAT/${{ secrets.PAT }}/g' published/appsettings.json
 
       - name: Add .nojekyll file
         run: |
