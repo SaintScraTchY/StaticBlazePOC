@@ -17,14 +17,14 @@ jobs:
       - name: 📦 Restore Dependencies
         run: dotnet restore ./StaticBlazePOC/StaticBlazePOC.csproj
         
-      - name: Replace placeholder token
-        run: |
-          sed -i 's/YOUR_PLACEHOLDER_PAT/${{ secrets.GH_PAT }}/g' published/wwwroot/appsettings.json
-          
       - name: 🏗️ Build Project
         run: dotnet publish ./StaticBlazePOC/StaticBlazePOC.csproj -c:Release -p:GHPages=true -o published --no-restore
         env: 
           GH_PAT: ${{ secrets.GH_PAT }}
+
+      - name: Replace placeholder token
+        run: |
+          sed -i 's/YOUR_PLACEHOLDER_PAT/${{ secrets.GH_PAT }}/g' published/wwwroot/appsettings.json
 
       - name: Add .nojekyll file
         run: |
