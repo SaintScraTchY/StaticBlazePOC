@@ -8,7 +8,8 @@ var builder = WebAssemblyHostBuilder.CreateDefault(args);
 builder.RootComponents.Add<App>("#app");
 builder.RootComponents.Add<HeadOutlet>("head::after");
 
-SecretHolder.PatToken = Environment.GetEnvironmentVariable("GH_PAT");;
+var patToken = builder.Configuration["GitHubPat"];
+SecretHolder.PatToken = patToken;
 
 builder.Services.AddScoped(sp => new HttpClient
 {
