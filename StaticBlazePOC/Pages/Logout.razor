@@ -1,0 +1,12 @@
+﻿@page "/logout"
+@using StaticBlazePOC.Services
+@inject GitHubAuthService GitHubAuth
+@inject NavigationManager Navigation
+
+@code {
+    protected override async Task OnInitializedAsync()
+    {
+        await GitHubAuth.Logout();
+        Navigation.NavigateTo("/login");
+    }
+}

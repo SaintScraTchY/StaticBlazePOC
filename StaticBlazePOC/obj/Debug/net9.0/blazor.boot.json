@@ -1,8 +1,9 @@
 {
   "mainAssemblyName": "StaticBlazePOC",
   "resources": {
-    "hash": "sha256-2Jf5OhGV1j/HrYM+t8KDaB6mOFuN00eQgtFIGP1qOvY=",
+    "hash": "sha256-PU/iYrIwA88m2YWou+vv3LoGQw+7vPK2msbYUNAOd6A=",
     "fingerprinting": {
+      "Blazored.LocalStorage.12n6dz54qr.wasm": "Blazored.LocalStorage.wasm",
       "Microsoft.AspNetCore.Authorization.esv38zo127.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.cwj0bpb71v.wasm": "Microsoft.AspNetCore.Components.wasm",
       "Microsoft.AspNetCore.Components.Forms.aq1ir8e8pl.wasm": "Microsoft.AspNetCore.Components.Forms.wasm",
@@ -201,8 +202,8 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "StaticBlazePOC.32xgcvw3ld.wasm": "StaticBlazePOC.wasm",
-      "StaticBlazePOC.vac2snbvhr.pdb": "StaticBlazePOC.pdb"
+      "StaticBlazePOC.hqjti18290.wasm": "StaticBlazePOC.wasm",
+      "StaticBlazePOC.d3s68owlij.pdb": "StaticBlazePOC.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.8bti36lthm.js": "sha256-HFADmT26AarHu4tMjFaTPxINmQjBJGtdPN+CKjtNMFE="
@@ -223,6 +224,7 @@
       "System.Private.CoreLib.6pgvn7a8kc.wasm": "sha256-SvlKQyOSwushlzp2th0dFRtuG039e446mqxz7rmv5XM="
     },
     "assembly": {
+      "Blazored.LocalStorage.12n6dz54qr.wasm": "sha256-OaMAAd5n7ORfyur5e3QIyEVKJ76MKIvwbg7/icnnYcU=",
       "Microsoft.AspNetCore.Authorization.esv38zo127.wasm": "sha256-rvfJ4vWD9REicee49XUtbmMWVdG0gSGCfb9oZFv9gkY=",
       "Microsoft.AspNetCore.Components.cwj0bpb71v.wasm": "sha256-RDzFNwWFeDHfByrpBjtoeDosPx0W+62WnUqQnxj4pzs=",
       "Microsoft.AspNetCore.Components.Forms.aq1ir8e8pl.wasm": "sha256-QtQH0F71sC0xN/8FWFAnruXDnbOacIsCWaGtPYIgPHM=",
@@ -412,10 +414,10 @@
       "WindowsBase.tuf34ieu7y.wasm": "sha256-Bd+l972cOS1eVeLzrQNlgD6LPWV1QXBSzJhv8Tx1WGI=",
       "mscorlib.5q5u0swn6q.wasm": "sha256-g9cI1sECkF7bxMqOSB+W0a4utdDsqTrqZzyiAEeA65g=",
       "netstandard.w8gk1pigg1.wasm": "sha256-QFR5QNPfvyZTexW3IA/AFx6ZmIF/TecvOUsSK4gM4po=",
-      "StaticBlazePOC.32xgcvw3ld.wasm": "sha256-pcwA3Ul4Cn6lO+yBjVsnaXNp0rETirYrspzVUqiDTZc="
+      "StaticBlazePOC.hqjti18290.wasm": "sha256-1wAVIihXXqvJ/ezXbvzBbJnVD/rVdlHdXihberu1MVc="
     },
     "pdb": {
-      "StaticBlazePOC.vac2snbvhr.pdb": "sha256-x3KQGOcBhdIHycIvCJffmPPyNZSnwXmz5AM8Afc8KM0="
+      "StaticBlazePOC.d3s68owlij.pdb": "sha256-uXvMPPfOZDA9URgEx2HajNaEi88akfuKoOslbpsnOhc="
     }
   },
   "cacheBootResources": true,

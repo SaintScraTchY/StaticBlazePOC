@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "LL3LxT0YQ28=",
+  "dgSpecHash": "A9uBzypfC7o=",
   "success": true,
   "projectFilePath": "M:\\Users\\SaintScraTchY\\RiderProjects\\StaticBlazePOC\\StaticBlazePOC\\StaticBlazePOC.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\SaintScraTchY\\.nuget\\packages\\blazored.localstorage\\4.5.0\\blazored.localstorage.4.5.0.nupkg.sha512",
     "C:\\Users\\SaintScraTchY\\.nuget\\packages\\blazorwasmbrotliloader.build\\1.0.0\\blazorwasmbrotliloader.build.1.0.0.nupkg.sha512",
     "C:\\Users\\SaintScraTchY\\.nuget\\packages\\microsoft.aspnetcore.authorization\\9.0.2\\microsoft.aspnetcore.authorization.9.0.2.nupkg.sha512",
     "C:\\Users\\SaintScraTchY\\.nuget\\packages\\microsoft.aspnetcore.components\\9.0.2\\microsoft.aspnetcore.components.9.0.2.nupkg.sha512",
