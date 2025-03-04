@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using StaticBlazePOC;
 using StaticBlazePOC.Pages;
+using StaticBlazePOC.Services;
 
 var builder = WebAssemblyHostBuilder.CreateDefault(args);
 
@@ -16,5 +17,6 @@ var patToken = builder.Configuration["GitHubPat"];
 builder.Services.AddScoped(sp => new HttpClient { });
 
 builder.Services.AddScoped<GitHubService>();
+builder.Services.AddScoped<GitHubAuthService>();
 
 await builder.Build().RunAsync();
