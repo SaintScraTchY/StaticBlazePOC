@@ -24,7 +24,7 @@ public class GitHubAuthService
         // Store the code verifier for later use
         _localStorage.SetItemAsync("code_verifier", codeVerifier);
 
-        return $"https://github.com/login/oauth/authorize?client_id={ClientId}&redirect_uri={Uri.EscapeDataString("https://your-app.com/callback")}&scope=repo&code_challenge={codeChallenge}&code_challenge_method=S256";
+        return $"https://github.com/login/oauth/authorize?client_id={ClientId}&redirect_uri={Uri.EscapeDataString("https://mehrshad.is-a.dev/StaticBlazePOC/callback")}&scope=repo&code_challenge={codeChallenge}&code_challenge_method=S256";
     }
 
     public async Task<string> ExchangeCodeForToken(string code)
