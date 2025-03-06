@@ -37,7 +37,7 @@ public class GitHubAuthService
             {
                 client_id = ClientId,
                 code = code,
-                redirect_uri = "https://your-app.com/callback",
+                redirect_uri = "https://mehrshad.is-a.dev/StaticBlazePOC/callback",
                 code_verifier = codeVerifier,
                 grant_type = "authorization_code"
             });
