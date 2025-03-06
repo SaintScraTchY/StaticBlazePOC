@@ -8,7 +8,7 @@ public class GitHubAuthService
 {
     private readonly HttpClient _http;
     private readonly ILocalStorageService _localStorage;
-    private const string ClientId = "YOUR_CLIENT_ID";
+    private const string ClientId = "Ov23liz6jrSB5gAPrzO9";
 
     public GitHubAuthService(HttpClient http, ILocalStorageService localStorage)
     {
