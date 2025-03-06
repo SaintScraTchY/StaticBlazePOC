@@ -5,33 +5,12 @@
 
 <h3>Login with GitHub</h3>
 
-@if (_userCode != null)
-{
-    <p>Enter this code on GitHub: <strong>@_userCode</strong></p>
-    <a href="https://github.com/login/device" target="_blank">Open GitHub</a>
-    <p>Waiting for authorization...</p>
-}
-else
-{
-    <button @onclick="StartLogin">Login with GitHub</button>
-}
+<button @onclick="StartLogin">Login with GitHub</button>
 
 @code {
-    private string _userCode;
-
-    private async Task StartLogin()
+    private void StartLogin()
     {
-        _userCode = await GitHubAuth.GetDeviceCode();
-        await PollForToken();
-    }
-
-    private async Task PollForToken()
-    {
-        var token = await GitHubAuth.PollForToken(_userCode);
-        if (token != null)
-        {
-            await GitHubAuth.StoreToken(token);
-            Navigation.NavigateTo("/");
-        }
+        var authUrl = GitHubAuth.GenerateAuthorizationUrl();
+        Navigation.NavigateTo(authUrl, forceLoad: true);
     }
 }

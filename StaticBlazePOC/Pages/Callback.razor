@@ -1,0 +1,26 @@
+﻿@page "/callback"
+@using Microsoft.AspNetCore.WebUtilities
+@using StaticBlazePOC.Services
+@inject GitHubAuthService GitHubAuth
+@inject NavigationManager Navigation
+
+<p>Logging in...</p>
+
+@code {
+    protected override async Task OnInitializedAsync()
+    {
+        var uri = Navigation.ToAbsoluteUri(Navigation.Uri);
+        var queryParams = QueryHelpers.ParseQuery(uri.Query);
+
+        if (queryParams.TryGetValue("code", out var code))
+        {
+            var token = await GitHubAuth.ExchangeCodeForToken(code);
+            await GitHubAuth.StoreToken(token);
+            Navigation.NavigateTo("/");
+        }
+        else
+        {
+            Navigation.NavigateTo("/login");
+        }
+    }
+}

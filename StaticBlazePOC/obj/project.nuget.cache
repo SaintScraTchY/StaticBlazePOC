@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "A9uBzypfC7o=",
+  "dgSpecHash": "Q7L/YeGkgLk=",
   "success": true,
   "projectFilePath": "M:\\Users\\SaintScraTchY\\RiderProjects\\StaticBlazePOC\\StaticBlazePOC\\StaticBlazePOC.csproj",
   "expectedPackageFiles": [
@@ -14,6 +14,7 @@
     "C:\\Users\\SaintScraTchY\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\9.0.2\\microsoft.aspnetcore.components.webassembly.9.0.2.nupkg.sha512",
     "C:\\Users\\SaintScraTchY\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.devserver\\9.0.2\\microsoft.aspnetcore.components.webassembly.devserver.9.0.2.nupkg.sha512",
     "C:\\Users\\SaintScraTchY\\.nuget\\packages\\microsoft.aspnetcore.metadata\\9.0.2\\microsoft.aspnetcore.metadata.9.0.2.nupkg.sha512",
+    "C:\\Users\\SaintScraTchY\\.nuget\\packages\\microsoft.aspnetcore.webutilities\\9.0.2\\microsoft.aspnetcore.webutilities.9.0.2.nupkg.sha512",
     "C:\\Users\\SaintScraTchY\\.nuget\\packages\\microsoft.extensions.configuration\\9.0.2\\microsoft.extensions.configuration.9.0.2.nupkg.sha512",
     "C:\\Users\\SaintScraTchY\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.2\\microsoft.extensions.configuration.abstractions.9.0.2.nupkg.sha512",
     "C:\\Users\\SaintScraTchY\\.nuget\\packages\\microsoft.extensions.configuration.binder\\9.0.2\\microsoft.extensions.configuration.binder.9.0.2.nupkg.sha512",
@@ -30,6 +31,7 @@
     "C:\\Users\\SaintScraTchY\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.2\\microsoft.extensions.primitives.9.0.2.nupkg.sha512",
     "C:\\Users\\SaintScraTchY\\.nuget\\packages\\microsoft.jsinterop\\9.0.2\\microsoft.jsinterop.9.0.2.nupkg.sha512",
     "C:\\Users\\SaintScraTchY\\.nuget\\packages\\microsoft.jsinterop.webassembly\\9.0.2\\microsoft.jsinterop.webassembly.9.0.2.nupkg.sha512",
+    "C:\\Users\\SaintScraTchY\\.nuget\\packages\\microsoft.net.http.headers\\9.0.2\\microsoft.net.http.headers.9.0.2.nupkg.sha512",
     "C:\\Users\\SaintScraTchY\\.nuget\\packages\\microsoft.net.illink.tasks\\9.0.2\\microsoft.net.illink.tasks.9.0.2.nupkg.sha512",
     "C:\\Users\\SaintScraTchY\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\9.0.2\\microsoft.net.sdk.webassembly.pack.9.0.2.nupkg.sha512",
     "C:\\Users\\SaintScraTchY\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.1\\microsoft.netcore.platforms.1.1.1.nupkg.sha512",

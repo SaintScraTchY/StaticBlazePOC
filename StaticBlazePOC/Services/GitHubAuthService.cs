@@ -1,13 +1,14 @@
-﻿
-using System.Net.Http.Json;
+﻿using System.Net.Http.Json;
 using Blazored.LocalStorage;
+using StaticBlazePOC.helper;
 
 namespace StaticBlazePOC.Services;
+
 public class GitHubAuthService
 {
     private readonly HttpClient _http;
     private readonly ILocalStorageService _localStorage;
-    private const string ClientId = "Ov23liz6jrSB5gAPrzO9";
+    private const string ClientId = "YOUR_CLIENT_ID";
 
     public GitHubAuthService(HttpClient http, ILocalStorageService localStorage)
     {
@@ -15,21 +16,31 @@ public class GitHubAuthService
         _localStorage = localStorage;
     }
 
-    public async Task<string> GetDeviceCode()
+    public string GenerateAuthorizationUrl()
     {
-        var response = await _http.PostAsJsonAsync(
-            "https://github.com/login/device/code",
-            new { client_id = ClientId, scope = "repo" });
+        var codeVerifier = PkceHelper.GenerateCodeVerifier();
+        var codeChallenge = PkceHelper.GenerateCodeChallenge(codeVerifier);
 
-        var deviceCodeResponse = await response.Content.ReadFromJsonAsync<DeviceCodeResponse>();
-        return deviceCodeResponse.UserCode; // Display this to the user
+        // Store the code verifier for later use
+        _localStorage.SetItemAsync("code_verifier", codeVerifier);
+
+        return $"https://github.com/login/oauth/authorize?client_id={ClientId}&redirect_uri={Uri.EscapeDataString("https://your-app.com/callback")}&scope=repo&code_challenge={codeChallenge}&code_challenge_method=S256";
     }
 
-    public async Task<string> PollForToken(string deviceCode)
+    public async Task<string> ExchangeCodeForToken(string code)
     {
+        var codeVerifier = await _localStorage.GetItemAsync<string>("code_verifier");
+
         var response = await _http.PostAsJsonAsync(
             "https://github.com/login/oauth/access_token",
-            new { client_id = ClientId, device_code = deviceCode, grant_type = "urn:ietf:params:oauth:grant-type:device_code" });
+            new
+            {
+                client_id = ClientId,
+                code = code,
+                redirect_uri = "https://your-app.com/callback",
+                code_verifier = codeVerifier,
+                grant_type = "authorization_code"
+            });
 
         var tokenResponse = await response.Content.ReadFromJsonAsync<TokenResponse>();
         return tokenResponse.AccessToken;
@@ -48,7 +59,13 @@ public class GitHubAuthService
     public async Task Logout()
     {
         await _localStorage.RemoveItemAsync("github_token");
+        await _localStorage.RemoveItemAsync("code_verifier");
     }
+}
+
+public class TokenResponse
+{
+    public string AccessToken { get; set; }
 }
 
 public class DeviceCodeResponse
@@ -57,9 +74,4 @@ public class DeviceCodeResponse
     public string VerificationUri { get; set; }
     public int ExpiresIn { get; set; }
     public int Interval { get; set; }
-}
-
-public class TokenResponse
-{
-    public string AccessToken { get; set; }
 }
