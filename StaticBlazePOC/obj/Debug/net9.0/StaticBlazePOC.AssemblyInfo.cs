@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StaticBlazePOC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a4fe90b2409268e58812727f9f01370edcd013df")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a5a3837d68ef320baef7cefa64923c2aec6a58d8")]
 [assembly: System.Reflection.AssemblyProductAttribute("StaticBlazePOC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StaticBlazePOC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
